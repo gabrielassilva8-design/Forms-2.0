@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Responsivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1 id="titulo">Cadastro</h1>
+
+        <div class="campo">
+            <div class="label-name"><label>Nome Completo:</label></div>
+            <input type="text" id="input-nome" placeholder="Digite seu nome...">
+
+            <div class="label-email"><label>E-mail:</label></div>
+            <input type="email" id="input-email" placeholder="Digite seu email...">
+
+            <div class="label-date"><label>Data de Nascimento:</label></div>
+            <input type="date" id="input-date">
+
+            <div class="label-senha"><label>Senha:</label></div>
+            <input type="password" id="input-password" placeholder="Digite sua senha(mínimo 8 caracteres)">
+
+            <div class="label-estado"><label>Estado:</label></div>
+            <select id="select-state">
+                <option value="0">Selecione</option>
+            <option value="1">Acre (AC)</option>
+            <option value="2">Amapá (AP)</option>
+            <option value="3">Amazonas (AM)</option>
+            <option value="4">Pará (PA)</option>
+            <option value="5">Rondônia (RO)</option>
+            <option value="6">Roraima (RR)</option>
+            <option value="7">Tocantins (TO) </option>
+            <option value="8">Alagoas (AL)</option>
+            <option value="9">Bahia (BA)</option>
+            <option value="10">Ceará (CE)</option>
+            <option value="11">Maranhão (MA)</option>
+            <option value="12">Paraíba (PB) </option>
+            <option value="13">Pernambuco (PE)</option>
+            <option value="14">Piauí (PI)</option>
+            <option value="15">Rio Grande do Norte (RN)</option>
+            <option value="16">Sergipe (SE)</option>
+            <option value="17">Goiás (GO) </option>
+            <option value="18">Mato Grosso (MT) </option>
+            <option value="19">Mato Grosso do Sul (MS)</option>
+            <option value="20">Distrito Federal (DF)</option>
+            <option value="21">Espírito Santo (ES)</option>
+            <option value="22">Minas Gerais (MG)</option>
+            <option value="23">Rio de Janeiro (RJ)</option>
+            <option value="24">São Paulo (SP)</option>
+            <option value="25">Paraná (PR)</option>
+            <option value="26">Rio Grande do Sul (RS)</option>
+            <option value="27">Santa Catarina (SC) </option>
+            </select>
+
+            <div class="label-genero"><label>Gênero:</label></div>
+            <div class="masculino">
+            <input type="radio" id="male">
+            <label>Masculino</label>
+            </div>
+
+            <div class="feminino">
+                <input type="radio" id="female">
+                <label>Feminino</label>
+            </div>
+
+            <div class="outro">
+                <input type="radio" id="other">
+                <label>Outro</label>
+            </div>
+
+            <div class="label-area"><label>Área de Interesse:</label></div>
+            <div class="html">
+                <input type="checkbox" id="check-html">
+                <label>HTML</label>
+            </div>
+
+            <div class="css">
+                <input type="checkbox" id="check-css">
+                <label>CSS</label>
+            </div>
+
+            <div class="js">
+                <input type="checkbox" id="check-js">
+                <label>JavaScript</label>
+            </div>
+
+            <div class="design">
+                <input type="checkbox" id="check-design">
+                <label>Design</label>
+            </div>
+
+            <button type="submit" id="enviar">Finalizar Cadastro</button>
+
+            <p id="feedback"></p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
